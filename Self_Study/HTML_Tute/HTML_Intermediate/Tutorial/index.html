@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 201</title>
+    <link rel="shortcut icon" href="../images/favicon/coding4everyone.png" type="image/png">
+</head>
+<body>
+
+    <h1 id="top">Welcome to HTML 201</h1>
+    <a href="#bottom">Scroll to bottom of page</a>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ea <span style="text-decoration: underline;"> voluptas recusandae? Soluta, dolores, voluptate consequuntur </span>  accusamus quia omnis aut asperiores quisquam delectus maxime consequatur laudantium iste, excepturi error dicta!
+    </p>
+    
+    <img src="../images/computer.jpg" alt="computer" width="700">
+    
+    <table border="1" width="100%">
+        <tr>
+            <th colspan="2">Welcome To My Website</th>
+        </tr>
+        <tr>
+            <td width="20%">
+                <h3>Navigation</h3>
+            </td>
+            <td>
+                <h3>Content</h3>
+            </td>
+        </tr>
+    </table>
+
+    <style>
+        .classNameHere {
+            padding: 40px; 
+            color: white; 
+            background-color: black;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        #testingId {
+            border: 5px solid red;
+        }
+    </style>
+
+    <div class="classNameHere">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, fuga ex consequuntur sit modi itaque! Id accusamus eveniet, doloremque, culpa ipsa quas laboriosam fugit totam nihil quisquam natus officiis vitae!
+    </div>
+
+    <div id="testingId">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, sapiente eius! Nulla cupiditate vel tempora dignissimos nisi repellendus suscipit facilis ut, voluptatum aspernatur earum. Maiores explicabo expedita veritatis adipisci dolorem?
+    </div>
+
+    <div class="classNameHere uppercase">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti minus quasi incidunt veniam odit ipsum perspiciatis et doloribus earum totam ullam provident consequatur, quam fuga adipisci, laborum itaque quos labore!
+    </div>
+
+
+    <h3>Formatting Code</h3>
+    <pre style="padding: 20px; border: 5px solid blue;">
+        def test_invalid_email(email):
+            if email in data['users']['email']:
+                print("This email is registered")
+            else: 
+                &lt;b&gt;<b> print("This does not exist") </b> &lt;/b&gt;
+
+    </pre>
+
+    <h3>HTML Entities</h3>
+    <p>
+        Lorem ipsum dolor &lt;pre&gt;sit amet consectetur adipisicing &lt;/pre&gt; elit. Nemo explicabo id iure nisi saepe ex eaque, eum assumenda, possimus, aspernatur consectetur sunt tempora? Ad repudiandae quas nihil tempore aliquam porro?
+    </p>
+
+    <h3>Forms</h3>
+    <form action="somepage.html" method="get">
+        <div>
+             <input required name="password" type="password" placeholder="Enter your password">
+        </div>
+
+        <div>
+            <textarea required cols="30" rows="1" placeholder="Write something here"></textarea>
+        </div>
+
+        <div>
+            <select name="selected_option">
+                <option value="" disabled="disabled">
+                    - Disabled -
+                </option>
+
+                <option value="value 1">This is value 1</option>
+                <option value="value 2">This is value 2</option>
+                <option value="value 3">This is value 3</option>
+                <option value="default-is-selected" selected="selected">
+                    Selected by Default
+                </option>
+            </select>
+        </div>
+
+        <div>
+            <button name="Idk something" type="submit">Click me!</button>
+        </div>
+    </form>
+
+
+    <h3>Embedding Videos</h3>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GVsUOuSjvcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div id="bottom">
+        <a href="#top">Back to Top</a>
+        <sup>&copy;</sup>2022
+    </div>
+
+</body>
+</html>
