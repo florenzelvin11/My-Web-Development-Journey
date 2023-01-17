@@ -10,23 +10,28 @@
     <a href="#bottom">Scroll to bottom of page</a>
 
     <p>
+        <span style="text-decoration: underline;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, rem.
+        </span>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ea <span style="text-decoration: underline;"> voluptas recusandae? Soluta, dolores, voluptate consequuntur </span>  accusamus quia omnis aut asperiores quisquam delectus maxime consequatur laudantium iste, excepturi error dicta!
     </p>
     
     <img src="../images/computer.jpg" alt="computer" width="700">
     
     <table border="1" width="100%">
-        <tr>
-            <th colspan="2">Welcome To My Website</th>
-        </tr>
-        <tr>
-            <td width="20%">
-                <h3>Navigation</h3>
-            </td>
-            <td>
-                <h3>Content</h3>
-            </td>
-        </tr>
+        <tbody>
+            <tr>
+                <th colspan="2">Welcome To My Website</th>
+            </tr>
+            <tr>
+                <td width="20%">
+                    <h3>Navigation</h3>
+                </td>
+                <td>
+                    <h3>Content</h3>
+                </td>
+            </tr>
+        </tbody>
     </table>
 
     <style>
@@ -76,11 +81,15 @@
     <h3>Forms</h3>
     <form action="somepage.html" method="get">
         <div>
+            <input required name="username" type="text" value="Florenz Manaois" placeholder="Enter your name">
+        </div>
+
+        <div>
              <input required name="password" type="password" placeholder="Enter your password">
         </div>
 
         <div>
-            <textarea required cols="30" rows="1" placeholder="Write something here"></textarea>
+            <textarea name="address" required cols="30" rows="10" placeholder="Write something here"></textarea>
         </div>
 
         <div>
@@ -110,7 +119,10 @@
 
     <div id="bottom">
         <a href="#top">Back to Top</a>
-        <sup>&copy;</sup>2022
+    </div>
+
+    <div id="copyright">
+        ManaoisProduction<sup>&copy;</sup>2022
     </div>
 
 </body>
