@@ -1,0 +1,111 @@
+body {
+    font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 1.59px;
+    margin: 0;
+}
+
+.navbar {
+    position: relative;
+    padding: 2rem 3rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.container {
+    width: 100%;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.28906rem;
+    padding-bottom: 0.28906rem;
+    margin-right: 3rem;
+    font-size: 1.40625rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 48px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(51, 35, 140);
+    font-weight: 600;
+}
+
+.rocket-section {
+    width: 100%;
+    background: linear-gradient(180.43deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0.80) 100%), url("https://rocketman.learnwagtail.com/media/images/spacex-OHOU-5UVIYQ-unsplash.2e16d0ba.fill-1600x800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 144px;
+    padding-bottom: 144px;
+    color: white;
+}
+
+.col1 {
+    width: 60%;
+    padding: 0 17.5px;
+}
+
+.row1 h1{
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.row2 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.row3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    color: black;
+    font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    border: 1px solid white;
+    letter-spacing: 1.5px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: gray;
+    font-weight: 600;
+    border-color: gray;
+}
