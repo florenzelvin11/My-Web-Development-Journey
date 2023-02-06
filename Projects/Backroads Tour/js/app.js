@@ -23,6 +23,7 @@ scrollLinks.forEach(link => {
     links.classList.remove("show-links");
 
     const id = e.target.getAttribute("href").slice(1);
+    console.log(e.target.getAttribute("href").slice(4));
     const element = document.getElementById(id);
     //
     let position = element.offsetTop - 62;
